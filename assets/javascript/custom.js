@@ -18,7 +18,7 @@ $(document).ready(function () {
                 $("#gifsHere").empty();
 		var sport = $(this).attr("data-name");
 		//console.log("hey");
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
         sport + "&api_key=pAzFQpI0SvkE566stub482zTBEpLLs36&limit=10";
 
         $.ajax({
